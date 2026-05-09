@@ -1,0 +1,12 @@
+services:
+  localstack:
+    container_name: localstack_infra
+    image: localstack/localstack:3.0.2  
+    ports:
+      - "127.0.0.1:4566:4566"
+    environment:
+      - SERVICES=s3,lambda,sqs
+      - DEBUG=1
+      - ACTIVATE_PRO=0
+      - AWS_DEFAULT_REGION=us-east-1
+      - ENFORCE_IAM=0
