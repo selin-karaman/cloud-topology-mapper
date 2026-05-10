@@ -50,6 +50,10 @@ The tool doesn't just list what exists; it understands how they interact. When a
 
 ## 📊 Visualization in Action
 
-Below is a snapshot of the **Infra-Map** dashboard discovering the relationship between an S3 bucket and an SQS queue in real-time:
+Here is the **Infra-Map** in action, showcasing the live discovery of cloud resources and the dynamic relationship mapping between S3 and SQS. The terminal output provides a real-time, hierarchical view of the infrastructure.
 
-![Infra-Map Terminal Screenshot](terminal_ss.jpg)
+<br>
+
+<p align="center">
+  <img src="terminal_ss.jpg" alt="Infra-Map Terminal Screenshot" width="400" height="auto">
+</p>
